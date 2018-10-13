@@ -1,0 +1,34 @@
+{
+  "name": "nassajis/instagram-php-scraper",
+  "description": "Instagram PHP Scraper. Get account information, photos and videos without any authorization",
+  "keywords": [
+    "instagram",
+    "scraper",
+    "grabber",
+    "grab",
+    "insta"
+  ],
+  "type": "library",
+  "homepage": "https://github.com/nassajis/instagram-php-scraper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "nassajis"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "mashape/unirest-php": "3.0.*",
+    "phpFastCache/phpFastCache": "5.0.*",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.5.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "InstagramScraper": "src"
+    }
+  }
+}
