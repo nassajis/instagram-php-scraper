@@ -1,5 +1,10 @@
 # Instagram PHP Scrapper
-This library is based on the Instagram web version. We develop it because nowadays it is hard to get an approved Instagram application. The purpose is to support every feature that the web desktop and mobile version support. 
+
+This is the fork of [`postaddictme/instagram-php-scraper`](https://github.com/postaddictme/instagram-php-scraper) repo.
+Description from original:
+
+> This library based on Instagram web version. We develop it because nowadays it is hard to get approved Instagram application. 
+> The purpose support every feature that web desktop and mobile version support. 
 
 ## Code Example
 ```php
