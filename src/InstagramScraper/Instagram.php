@@ -1,18 +1,18 @@
 <?php
 
-namespace InstagramScraper;
+namespace Nassajis\InstagramScraper;
 
-use InstagramScraper\Exception\InstagramAuthException;
-use InstagramScraper\Exception\InstagramException;
-use InstagramScraper\Exception\InstagramNotFoundException;
-use InstagramScraper\Model\Account;
-use InstagramScraper\Model\Comment;
-use InstagramScraper\Model\Like;
-use InstagramScraper\Model\Location;
-use InstagramScraper\Model\Media;
-use InstagramScraper\Model\Story;
-use InstagramScraper\Model\Tag;
-use InstagramScraper\Model\UserStories;
+use Nassajis\InstagramScraper\Exception\InstagramAuthException;
+use Nassajis\InstagramScraper\Exception\InstagramException;
+use Nassajis\InstagramScraper\Exception\InstagramNotFoundException;
+use Nassajis\InstagramScraper\Model\Account;
+use Nassajis\InstagramScraper\Model\Comment;
+use Nassajis\InstagramScraper\Model\Like;
+use Nassajis\InstagramScraper\Model\Location;
+use Nassajis\InstagramScraper\Model\Media;
+use Nassajis\InstagramScraper\Model\Story;
+use Nassajis\InstagramScraper\Model\Tag;
+use Nassajis\InstagramScraper\Model\UserStories;
 use InvalidArgumentException;
 use phpFastCache\Cache\ExtendedCacheItemPoolInterface;
 use phpFastCache\CacheManager;

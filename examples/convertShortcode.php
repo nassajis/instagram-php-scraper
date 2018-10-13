@@ -1,7 +1,7 @@
 <?php
 require __DIR__ . '/../vendor/autoload.php';
 
-use InstagramScraper\Model\Media;
+use Nassajis\InstagramScraper\Model\Media;
 
 
 echo 'Shortcode: ' . Media::getCodeFromId('1270593720437182847_3') . "\n"; // Shortcode: BGiDkHAgBF_

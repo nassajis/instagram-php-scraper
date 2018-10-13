@@ -11,6 +11,10 @@
   "type": "library",
   "homepage": "https://github.com/nassajis/instagram-php-scraper",
   "license": "MIT",
+  "support": {
+    "issues": "https://github.com/nassajis/instagram-php-scraper/issues",
+    "source": "https://github.com/nassajis/instagram-php-scraper"
+  },
   "authors": [
     {
       "name": "nassajis"
@@ -28,7 +32,7 @@
   },
   "autoload": {
     "psr-0": {
-      "InstagramScraper": "src"
+      "Nassajis\\InstagramScraper": "src"
     }
   }
 }

@@ -1,9 +1,9 @@
 <?php
 // If account is public you can query Instagram without auth
-$instagram = new \InstagramScraper\Instagram();
+$instagram = new \Nassajis\InstagramScraper\Instagram();
 
 // If account is private and you subscribed to it, first login
-$instagram = \InstagramScraper\Instagram::withCredentials('username', 'password', '/path/to/cache/folder');
+$instagram = \Nassajis\InstagramScraper\Instagram::withCredentials('username', 'password', '/path/to/cache/folder');
 $instagram->login();
 
 $media = $instagram->getMediaByCode('BHaRdodBouH');

@@ -2,8 +2,8 @@
 
 require '../vendor/autoload.php';
 
-use InstagramScraper\Instagram;
-use InstagramScraper\Model\Media;
+use Nassajis\InstagramScraper\Instagram;
+use Nassajis\InstagramScraper\Model\Media;
 use phpFastCache\CacheManager;
 use PHPUnit\Framework\TestCase;
 

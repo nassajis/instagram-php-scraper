@@ -1,8 +1,8 @@
 <?php
 
-namespace InstagramScraper\Model;
+namespace Nassajis\InstagramScraper\Model;
 
-use InstagramScraper\Endpoints;
+use Nassajis\InstagramScraper\Endpoints;
 
 /**
  * Class Media

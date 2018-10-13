@@ -1,9 +1,9 @@
 <?php
 
-namespace InstagramScraper\Model;
+namespace Nassajis\InstagramScraper\Model;
 
-use InstagramScraper\Traits\ArrayLikeTrait;
-use InstagramScraper\Traits\InitializerTrait;
+use Nassajis\InstagramScraper\Traits\ArrayLikeTrait;
+use Nassajis\InstagramScraper\Traits\InitializerTrait;
 
 /**
  * Class AbstractModel

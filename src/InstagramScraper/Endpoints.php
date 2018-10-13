@@ -1,6 +1,6 @@
 <?php
 
-namespace InstagramScraper;
+namespace Nassajis\InstagramScraper;
 
 class Endpoints
 {
