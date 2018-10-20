@@ -47,4 +47,18 @@ class Like extends AbstractModel
         }
     }
 
+    public function asArray()
+    {
+        $vars = get_object_vars($this);
+
+        return $vars;
+    }
+
+    public function asJson()
+    {
+        $vars = get_object_vars($this);
+
+        return json_encode($vars);
+    }
+
 }

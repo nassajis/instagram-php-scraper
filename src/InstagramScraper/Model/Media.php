@@ -545,7 +545,7 @@ class Media extends AbstractModel
                 break;
             case 'edge_media_to_comment':
                 if (isset($arr[$prop]['count'])) {
-                    $this->commentsCount = (int) $arr[$prop]['count'];
+                    $this->commentsCount = (int)$arr[$prop]['count'];
                 }
                 if (isset($arr[$prop]['edges']) && is_array($arr[$prop]['edges'])) {
                     foreach ($arr[$prop]['edges'] as $commentData) {
@@ -553,10 +553,10 @@ class Media extends AbstractModel
                     }
                 }
                 if (isset($arr[$prop]['page_info']['has_next_page'])) {
-                    $this->hasMoreComments = (bool) $arr[$prop]['page_info']['has_next_page'];
+                    $this->hasMoreComments = (bool)$arr[$prop]['page_info']['has_next_page'];
                 }
                 if (isset($arr[$prop]['page_info']['end_cursor'])) {
-                    $this->commentsNextPage = (string) $arr[$prop]['page_info']['end_cursor'];
+                    $this->commentsNextPage = (string)$arr[$prop]['page_info']['end_cursor'];
                 }
                 break;
             case 'edge_media_preview_like':
@@ -667,4 +667,19 @@ class Media extends AbstractModel
     {
         return $this->owner;
     }
+
+    public function asArray()
+    {
+        $vars = get_object_vars($this);
+
+        return $vars;
+    }
+
+    public function asJson()
+    {
+        $vars = get_object_vars($this);
+
+        return json_encode($vars);
+    }
+
 }
